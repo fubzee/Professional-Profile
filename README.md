@@ -1,25 +1,20 @@
-# W8HW - Update Portfolio
+# Professional Portfolio
 
-https://fubzee.github.io/W8HW-Portfolio/
-
-https://github.com/fubzee/W8HW-Portfolio
-
-30/01/2022
+https://fubzee.github.io/Professional-Profile/
+https://github.com/fubzee/Professional-Profile
 
 **The Assignment:** 
 
-The personal portfolio page has been updated and while I have retained the dark and dramatic foreground there are extra buttons that will take you to some additional information which is a resume calling out the key areas of the different roles I have assumed during my career.  The links will take you to some information on the page about me and to my web development work while the buttons each foc on my resume.  Attahced is my full CV which can be accessed from the main page as well as any of the other other pages.  
+Updated to portfolio to include the latest group assignment and poliched it up to be employer ready.  Basci functuons from the previous version remains but the image has been replaces with a view to create a mininmalist and clean portfolio page.  Portfolio focuses on the full stack role but inlcudes links to previous jobs and experience. 
 
-![image](https://user-images.githubusercontent.com/94102473/151694337-5dab44f6-9f25-4cb3-a435-94ac05f6e698.png)
+![image](https://user-images.githubusercontent.com/94102473/160392974-b504a121-ebce-4412-a68c-03e28d2ba57b.png)
 
-I've retained the application of the two primary monochromatic colours and have incorporated the bootstrap components to ensure the site renders correctly.  The site will present a avater (meant to be a rough representation of me) my name, with three options to 'jump to"to :
+The portfolio reflects a summary of the technical direction of m career with links to 
 
-- Summary of my career
-- Sample Work
-- Contact details
+- Previous roles/experienec
+- Three examples of project work done on the boot camp 
+- Contact details and a link to my resume
 
-The page was divided into sections and when rendered on the browser displays a dramatic first page with a moody looking cat (I love cats) with a pop of pink.  This pink colour was then used to highlight accessable parts (links on the page). 
+I included the git links to redirect a visitor to the pages/sites that reflect examples of the work completed as well as a link to the git hub repo where you can access all development activitites undertaken.  
 
-I included the git links to redirect a visitor to the pages/sites that reflect some of my earlier attempts at web development, you can navigate to these by clicking on the image.  The image will pop out as a photo when you hover over it or by selecting the links next to the heading of the work done.  There is also a link to the github repo for those interested in looking at how they were developed.  
 
-Thank-you!
