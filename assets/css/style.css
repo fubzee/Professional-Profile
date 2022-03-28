@@ -1,0 +1,173 @@
+/* Defined some styling values for reuse to ensure consistency */
+:root{
+    --all-primary-backgound: #fff ;
+    --all-primary-font: #000;
+    --all-box-background:#000;
+    --all-box-font: #fff;   
+    --all-box-border: 5px;
+    --all-box-border-style: solid;
+    --all-border-radius-round: 120px;
+    --all-border-radius-oblong: 52px;
+    --all-bottom-shadow: 10px;
+    --all-box-shadow: 10px 10px 5px #darkslategray;
+    --all-font: 'Verdana','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    --nav-border-color: #000; 
+}
+
+* {    
+    background: var(--all-primary-backgound);
+    color: var(--all-primary-font);
+    box-sizing: border-box;
+}
+
+header{
+   background-image: linear-gradient(to bottom, #f1f1f1, #fff);
+}
+body{
+  background: var(--all-primary-backgound);
+
+}
+
+h1, h2{
+  color: #000; 
+}
+h2{
+  text-align: center;
+}
+
+mark{
+  background:rgba(253, 208, 4, 0.897);
+  color:black;
+}
+
+.BannerBox{
+/* position:auto; */
+width: 100%;
+align-items: left;
+}
+
+.jumbotron{
+
+    height: 100vh;
+    background : var(--all-primary-backgound);
+}
+
+#heroimg{
+
+  /* mix-blend-mode: exclusion ; */
+  margin-left: 0em;
+  z-index: 1;
+}
+
+#profile{
+ align-items: right;
+
+}
+
+button{
+
+  color: #000;
+  display: inline-block;
+  
+}
+#headimg{
+
+  border-radius: var(--all-border-radius-oblong);
+  mix-blend-mode: luminosity;
+  position: sticky; 
+  height:100px;
+  width:100px;
+}
+
+.nav-box:hover{
+  transition: border-color 2s linear;
+  border-color: var(--nav-border-color);
+}
+.bi{
+  color: black
+}
+#img2::after{
+
+  transition: var(--nav-border-color) 2s linear;
+  border: 10px solid #FF00FF; 
+  box-shadow: 10px 10px 5px #FF00FF; 
+}
+.resume{
+  align-self: flex-end;
+}
+  
+ a{
+  align-content: center;
+  background-color: var(--all-primary-background);
+  color:black; 
+  font-family: var(--all-font);
+  font-size: 0.75em;
+} 
+
+footer{  
+
+  justify-content: center;
+  padding: 2%;
+  background: white;
+  color: var(--all-primary-font);
+}
+
+footer p {
+
+  color: var(--all-primary-font);
+  background-color:white;
+  text-align: center;
+}
+
+
+#ContactDetails{
+  background: white;
+  color:black;
+  font-size: 20px;
+  font: small-caption;
+  border-radius: var(--all-border-radius-oblong);
+}
+
+#img #phone #email #linkedin {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  }
+}
+
+.responsive{
+  
+  width: 100%;
+  height: auto;
+  }
+
+.card {
+  margin: 0%; 
+  background-color: var(--all-box-background);
+  color: var(--all-box-font);
+}
+
+.card a :hover{
+
+  transition: var-border-color 2s linear;
+  border: 10px solid #fff;
+  box-shadow: 10px 10px 5px #ccc;
+  
+  }
+
+#ContactDetails p {
+
+  margin: 0%;
+  text-align: justify; 
+  font-family: var(--all-font);
+}
+
+#credits{
+  font-style: italic;
+  font-size: xx-small;
+}
